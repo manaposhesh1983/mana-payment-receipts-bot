@@ -16,7 +16,7 @@ from flask import Flask
 import threading
 
 # ================= CONFIG =================
-BOT_TOKEN = os.environ.get('BOT_TOKEN', '8219133063:AAEHYeKF4J-V2PTgJaOyuufBl2gFIGz9wBE')
+#BOT_TOKEN = os.environ.get('BOT_TOKEN', '')
 RENDER_APP_URL = os.environ.get('RENDER_APP_URL', '')  # Will be set on Render
 
 # Google Sheets setup
